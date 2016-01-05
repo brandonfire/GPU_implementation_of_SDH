@@ -1,0 +1,11 @@
+GPU implementation of Spatial Distance Histogram
+
+This program is used for caculate distance between 3d points via fast computation of GPU. The basic idea is to enable powerful multithread computation ability of GPU. We used the tilting input, shared output and control divergence to increase the performance.
+
+Please use mvcc to compile this program.
+
+To run a test.
+type 
+
+$ ./{program name} {#of_samples} {bucket_width} {block_size} 
+
