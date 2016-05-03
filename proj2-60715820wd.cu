@@ -1,9 +1,3 @@
-/* ==================================================================
-	Programmer: Yicheng Tu (ytu@cse.usf.edu)
-	The basic SDH algorithm implementation for 3D data
-	To compile: nvcc SDH.c -o SDH in the rc machines
-   ==================================================================
-*/
 /*
 * CUDA version by chengbin hu U#60715820
 * Date 06/20/2015
